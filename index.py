@@ -14,8 +14,6 @@ def d_dtcn():
 		os.system("python android_cam.py --shape_predictor shape_predictor_68_face_landmarks.dat")
 		exit()
 
-	
-		
 	root.title("Spam Bytes")
 	Label(root, text="DozeDefender",font=("times new roman",20),fg="black",bg="#A621A1",height=2).grid(row=2,rowspan=2,columnspan=30,sticky=N+E+W+S,padx=15,pady=10)
 	Button(root,text="Run using web cam",font=("times new roman",20),bg="#393273",fg='white',command=function1).grid(row=5,columnspan=30,sticky=W+E+N+S,padx=15,pady=5)
